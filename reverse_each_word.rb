@@ -12,7 +12,11 @@ def reverse_each_word (sentance)
 end 
 
 
-
+new = sentance.split
+array = []
+new.collect do |word|
+  array << word.reverse
+end
 
 #index = 0 
  # new_sentance = []
