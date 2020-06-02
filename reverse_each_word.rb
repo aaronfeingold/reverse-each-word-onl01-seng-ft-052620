@@ -4,7 +4,7 @@ def reverse_each_word (sentance)
   reversed_words = [] 
   new_sentance.collect do |word|
     reversed_words << word.reverse
-    
+  end 
 end 
 
 
