@@ -1,7 +1,7 @@
 def reverse_each_word (sentance1)
- 
-  sentance1.split
-  
- 
+  new_sentance = []
+    new_sentance << sentance1.split
+    end 
+ return new_sentance
   
 end 
