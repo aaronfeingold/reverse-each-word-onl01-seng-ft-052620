@@ -1,22 +1,14 @@
 def reverse_each_word (sentance)
-  index = 0 
-  new_sentance = []
-  
-  
-  sentance.split do |word|
-    new_sentance << word.reverse 
-  end
-  
-  new_sentance.join(" ")
-
+ 
+  new_sentance = sentance.split
+  reversed_words = [] 
+  new_sentance.collect do |word|
+    reversed_words << word.reverse
+    
 end 
 
 
-new = sentance.split
-array = []
-new.collect do |word|
-  array << word.reverse
-end
+
 
 #index = 0 
  # new_sentance = []
