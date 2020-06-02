@@ -3,7 +3,7 @@ def reverse_each_word (sentance)
   new_sentance = []
    
   while index < sentance.length
-    new_sentance << yield(sentance[word])
+    new_sentance << sentance.reverse 
     index += 1 
   end 
 
